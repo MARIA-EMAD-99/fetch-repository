@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.repos-container{
+    margin: auto;
+    width: 800px;
+    background-color: #f6f6f6;
+}
+
+.get-repos{
+     padding: 20px;
+     display: flex;
+     background-color: #eee;
+} 
+
+input {
+    width: 100%;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    height: 54px; 
+}
+input:focus{
+    outline: 2px solid #f51a0a;
+}
+.get-button{
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    background-color: #f51a0a;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    line-height: 54px;
+}
+.show-data{
+    padding: 20px;
+    background-color: #c3bfbf;
+}
+.repobox{
+    background-color: #fff;
+    padding: 15px;
+
+}
+
+.repobox:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.repobox a , .repobox span{
+    float: right;
+    padding: 4px;
+    width: 90px;
+    color: white;
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.repobox a{
+    text-decoration: none;
+    background-color: #E91E63;
+}
+
+.repobox span{
+    background-color: #009688;
+
+}
+
+
+
